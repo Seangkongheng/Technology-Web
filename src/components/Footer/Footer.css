@@ -1,0 +1,39 @@
+.footer-container{
+    padding: 100px 200px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(12, 12, 31);
+}
+.footer-content{
+    
+    display: flex;
+
+    gap: 5rem;
+    justify-content: space-between;
+
+}
+.footer-list-item{
+    display: flex;
+    gap: 5rem;
+}
+.footer-item ul{
+    margin-top: 20px;
+}
+.footer-item ul li{
+    color: white;
+    list-style-type: none;
+}
+.footer-item h4{
+    color: white;
+}
+.footer-branch p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+}
+.footer-branch h1{
+    color: rgb(99, 91, 255);
+}
+.footer-branch{
+    border-right: 5px solid rgb(165, 165, 255);
+}

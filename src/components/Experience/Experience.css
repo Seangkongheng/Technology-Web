@@ -1,0 +1,43 @@
+.experience-container{
+    padding: 30px 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(227, 227, 227);
+}
+.experience-image{
+    width: 430px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.experience-content{
+    display: flex;
+    gap:2rem;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+.experience-image img{
+    width: 100%;
+}
+.experience-description p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.experience-description h1{
+    font-size: 26px;
+}
+.experience-description span{
+    font-size: 10px;
+}
+.experience-description ul li{
+    list-style-type: none;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.experience-description button{
+    margin-top: 20px;
+    color: white;
+    padding: 5px 30px;
+    background-color: blue;
+    border: none;
+}

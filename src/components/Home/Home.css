@@ -1,0 +1,39 @@
+.home-content{
+    background-image: url('../../assets/homeBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 87vh;
+    width: 100%;
+}
+.home-content{
+    padding: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-title h1{
+    color: white;
+    font-weight: bold;
+}
+.home-title p{
+    color: white;
+    margin-top: 20px;
+}
+.home-title button{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 2px solid rgb(66, 37, 235);
+    background:none;
+    color: white;
+    transition: 0.3s ease-out;
+
+}
+.home-title button:hover{
+    background-color: blue;
+    cursor: pointer;
+
+}
+.home-title .btn-contact{
+    margin-left: 20px;
+}

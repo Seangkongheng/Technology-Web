@@ -1,0 +1,26 @@
+.member-card{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+.member-content p{
+    color: rgb(0, 157, 255);
+}
+.member-card img{
+    width: 100%;
+    
+}
+.member-list {
+    margin-top: 20px;
+    display: flex;
+    gap: 1.5rem;
+}
+.member-content{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

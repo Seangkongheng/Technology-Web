@@ -1,0 +1,37 @@
+nav{
+    padding: 20px 200px;
+    background-color: rgb(1, 21, 39);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    align-items: center;
+}
+.navbar-branch h1{
+    color: rgb(25, 0, 255);
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+    font-weight: bold;
+}
+.navbar-menu ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    align-items: center;
+}
+.navbar-menu ul li{
+    color: white;
+    font-size: 12px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.navbar-menu ul li:hover{
+    color: blueviolet;
+}
+.menu-item{
+    
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.nav-icon img{
+    width: 40px;
+}
